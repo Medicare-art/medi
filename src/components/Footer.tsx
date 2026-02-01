@@ -8,9 +8,9 @@ const Footer = () => {
             <div className="container">
                 <div className="footer-grid">
                     <div className="footer-info">
-                        <div className="logo footer-logo">
-                            <img src="/logo.jpg" alt="Misty Meadows Logo" className="footer-logo-img" />
-                        </div>
+                        <Link to="/" className="footer-logo">
+                            <img src="/logo.jpg" alt="Misty Meadows Logo" className="logo-img" />
+                        </Link>
                         <p className="footer-desc">
                             Providing exceptional care and support to our residents across our nationwide network of luxury care homes.
                         </p>
@@ -46,7 +46,7 @@ const Footer = () => {
                         <h3>Contact Us</h3>
                         <div className="contact-item">
                             <MapPin size={20} />
-                            <p>123 Healthcare Way, London, UK</p>
+                            <p>40 Carlin Gate, Blackpool, United Kingdom, FY2 9QT</p>
                         </div>
                         <div className="contact-item">
                             <Phone size={20} />

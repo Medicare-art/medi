@@ -1,6 +1,6 @@
 import { Apple, Leaf, Thermometer, Smile } from 'lucide-react';
 import './HealthNutrition.css';
-import nutritionImg from '../assets/images/nutrition.png';
+import './HealthNutrition.css';
 
 const HealthNutrition = () => {
     return (
@@ -16,7 +16,7 @@ const HealthNutrition = () => {
                 <div className="container">
                     <div className="nutrition-content-grid">
                         <div className="nutrition-image">
-                            <img src={nutritionImg} alt="Healthy Dining" className="rounded-img" />
+                            <img src="/food/93852242_257189742338326_2809627838217453568_n.jpg" alt="Healthy Dining" className="rounded-img" />
                         </div>
                         <div className="nutrition-text">
                             <h2>Nutritious Dining <br />Experience</h2>
@@ -73,6 +73,23 @@ const HealthNutrition = () => {
                                 <p>Apple & Blackberry Crumble with custard</p>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </section>
+            <section className="nutrition-gallery section-padding bg-accent">
+                <div className="container">
+                    <div className="section-header text-center">
+                        <h2>Culinary <span className="text-secondary">Excellence</span></h2>
+                    </div>
+                    <div className="gallery-grid">
+                        <img src="/food/70616745_113453566711945_5480935936839647232_n.jpg" alt="Food 1" />
+                        <img src="/food/82932005_184296949627606_1345250676992638976_n.jpg" alt="Food 2" />
+                        <img src="/food/83027106_184297006294267_4475721187925688320_n.jpg" alt="Food 3" />
+                        <img src="/food/91825189_246740603383240_2942684481938522112_n.jpg" alt="Food 4" />
+                        <img src="/food/91848722_246740640049903_4987196035613851648_n.jpg" alt="Food 5" />
+                        <img src="/food/91919121_246740833383217_3165687099571568640_n.jpg" alt="Food 6" />
+                        <img src="/food/92369417_246740620049905_8382070209371963392_n.jpg" alt="Food 7" />
+                        <img src="/food/92939762_246740806716553_4322534165632253952_n.jpg" alt="Food 8" />
                     </div>
                 </div>
             </section>

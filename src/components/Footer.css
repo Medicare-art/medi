@@ -11,12 +11,14 @@
     margin-bottom: 4rem;
 }
 
-.footer-logo-img {
+.footer-logo {
+    display: inline-block;
+}
+
+.footer-logo .logo-img {
     height: 60px;
     width: auto;
-    background: white;
-    padding: 5px;
-    border-radius: 5px;
+    display: block;
 }
 
 .footer-desc {

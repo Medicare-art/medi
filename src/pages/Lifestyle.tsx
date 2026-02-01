@@ -1,6 +1,5 @@
 import { Palette, Music, Sprout, Coffee } from 'lucide-react';
 import './Lifestyle.css';
-import lifestyleImg from '../assets/images/lifestyle.png';
 
 const Lifestyle = () => {
     return (
@@ -52,7 +51,7 @@ const Lifestyle = () => {
                             </div>
                         </div>
                         <div className="lifestyle-image">
-                            <img src={lifestyleImg} alt="Lifestyle Activities" className="rounded-img" />
+                            <img src="/activity/92282471_246605660063401_8208245740372230144_n.jpg" alt="Lifestyle Activities" className="rounded-img" />
                         </div>
                     </div>
                 </div>
@@ -64,10 +63,14 @@ const Lifestyle = () => {
                         <h2>Moments of <span className="text-secondary">Joy</span></h2>
                     </div>
                     <div className="gallery-grid">
-                        <img src={lifestyleImg} alt="Gallery 1" />
-                        <img src={lifestyleImg} alt="Gallery 2" />
-                        <img src={lifestyleImg} alt="Gallery 3" />
-                        <img src={lifestyleImg} alt="Gallery 4" />
+                        <img src="/activity/131663869_632292714828025_1912956360259747022_n.jpg" alt="Gallery 1" />
+                        <img src="/activity/210224901_632292724828024_9040698239834818003_n.jpg" alt="Gallery 2" />
+                        <img src="/activity/210401558_632292671494696_8950980790264489412_n.jpg" alt="Gallery 3" />
+                        <img src="/activity/70736321_113457266711575_6729856201099575296_n.jpg" alt="Gallery 4" />
+                        <img src="/activity/81374429_175578460499455_5933686847740837888_n.jpg" alt="Gallery 5" />
+                        <img src="/activity/81781625_176701820387119_7488775397589385216_n.jpg" alt="Gallery 6" />
+                        <img src="/activity/91143380_237261610997806_1431024115946356736_n.jpg" alt="Gallery 7" />
+                        <img src="/activity/91518086_237261604331140_8160412049646551040_n.jpg" alt="Gallery 8" />
                     </div>
                 </div>
             </section>

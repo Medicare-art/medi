@@ -43,8 +43,8 @@
 
 .homes-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 3rem;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2.5rem;
 }
 
 .home-card {
@@ -62,12 +62,15 @@
 
 .home-image {
     position: relative;
-    height: 250px;
+    height: 206px;
+    display: flex;
+    justify-content: center;
+    background: #f0f4f8;
 }
 
 .home-image img {
-    width: 100%;
-    height: 100%;
+    width: 206px;
+    height: 206px;
     object-fit: cover;
 }
 

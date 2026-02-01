@@ -2,8 +2,6 @@ import { motion } from 'framer-motion';
 import { Heart, ShieldCheck, Users, Utensils } from 'lucide-react';
 import './Home.css';
 import heroImg from '../assets/images/hero.png';
-import lifestyleImg from '../assets/images/lifestyle.png';
-import nutritionImg from '../assets/images/nutrition.png';
 
 const Home = () => {
     return (
@@ -68,7 +66,7 @@ const Home = () => {
             <section className="featured-sections">
                 <div className="featured-row">
                     <div className="featured-image">
-                        <img src={lifestyleImg} alt="Lifestyle and Wellbeing" />
+                        <img src="/activity/85041359_199203998136901_7924339515819294720_n.jpg" alt="Lifestyle and Wellbeing" />
                     </div>
                     <div className="featured-content">
                         <div className="inner-content">
@@ -81,7 +79,7 @@ const Home = () => {
 
                 <div className="featured-row reverse">
                     <div className="featured-image">
-                        <img src={nutritionImg} alt="Health and Nutrition" />
+                        <img src="/food/94252880_257189719004995_1857010212293050368_n.jpg" alt="Health and Nutrition" />
                     </div>
                     <div className="featured-content">
                         <div className="inner-content">

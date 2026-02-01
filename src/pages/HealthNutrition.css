@@ -5,6 +5,19 @@
     align-items: center;
 }
 
+.nutrition-image {
+    display: flex;
+    justify-content: center;
+}
+
+.rounded-img {
+    max-width: 206px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
 .nutrition-text h2 {
     font-size: 3rem;
     margin-bottom: 2rem;
@@ -84,4 +97,23 @@
     .nutrition-content-grid {
         grid-template-columns: 1fr;
     }
+}
+
+.nutrition-gallery .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1.5rem;
+    justify-items: center;
+}
+
+.nutrition-gallery .gallery-grid img {
+    width: 206px;
+    height: 206px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: var(--transition);
+}
+
+.bg-accent {
+    background: var(--accent);
 }
