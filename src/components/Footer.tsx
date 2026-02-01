@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="footer-grid">
                     <div className="footer-info">
                         <div className="logo footer-logo">
-                            <img src="/src/assets/hero.jpeg" alt="Misty Meadows Logo" className="footer-logo-img" />
+                            <img src="/logo.jpg" alt="Misty Meadows Logo" className="footer-logo-img" />
                         </div>
                         <p className="footer-desc">
                             Providing exceptional care and support to our residents across our nationwide network of luxury care homes.

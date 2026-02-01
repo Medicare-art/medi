@@ -34,7 +34,7 @@ const Navbar = () => {
                 <div className="container">
                     <div className="nav-wrapper">
                         <Link to="/" className="logo">
-                            <img src="/src/assets/hero.jpeg" alt="Misty Meadows Logo" className="logo-img" />
+                            <img src="/logo.jpg" alt="Misty Meadows Logo" className="logo-img" />
                         </Link>
 
                         <div className={`nav-links ${isOpen ? 'open' : ''}`}>
