@@ -1,72 +1,41 @@
-import { motion } from 'framer-motion';
-
-import heroImage from './assets/hero.jpeg';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
+import Home from './pages/Home';
+import OurHomes from './pages/OurHomes';
+import NewsEvents from './pages/NewsEvents';
+import Lifestyle from './pages/Lifestyle';
+import HealthNutrition from './pages/HealthNutrition';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsConditions from './pages/TermsConditions';
+import ModernSlavery from './pages/ModernSlavery';
+import CookiesPolicy from './pages/CookiesPolicy';
+import './index.css';
 
 function App() {
   return (
-    <main className="main-container">
-      {/* Background Glows */}
-      <div className="glow-effect glow-1" />
-      <div className="glow-effect glow-2" />
-
-      <div className="content-wrapper">
-        {/* Left Content */}
-        <motion.div
-          initial={{ opacity: 0, x: -50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-          className="text-section"
-        >
-          <div className="badge">
-            <span className="pulse-container">
-              <span className="pulse-ring"></span>
-              <span className="pulse-dot"></span>
-            </span>
-            <span className="badge-text">Launching Soon</span>
-          </div>
-
-          <h1 className="hero-title">
-            Something <br />
-            <span className="gradient-text">Extraordinary</span> <br />
-            is Coming.
-          </h1>
-
-          <p className="hero-description">
-            We're crafting a digital experience that will redefine how you interact with healthcare. Stay tuned for the revolution.
-          </p>
-
-
-        </motion.div>
-
-        {/* Right Image/Visual */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.8, rotate: 5 }}
-          animate={{ opacity: 1, scale: 1, rotate: 0 }}
-          transition={{ duration: 1, ease: "easeOut" }}
-          className="image-section"
-        >
-          <div className="image-card">
-            <img
-              src={heroImage}
-              alt="Coming Soon"
-              className="hero-image"
-            />
-            <div className="image-overlay" />
-          </div>
-
-          {/* Decorative Elements */}
-          <div className="deco-glow deco-1" />
-          <div className="deco-glow deco-2" />
-        </motion.div>
+    <Router>
+      <ScrollToTop />
+      <div className="app">
+        <Navbar />
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/our-homes" element={<OurHomes />} />
+            <Route path="/news-events" element={<NewsEvents />} />
+            <Route path="/lifestyle" element={<Lifestyle />} />
+            <Route path="/health-nutrition" element={<HealthNutrition />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms-conditions" element={<TermsConditions />} />
+            <Route path="/modern-slavery" element={<ModernSlavery />} />
+            <Route path="/cookies-policy" element={<CookiesPolicy />} />
+          </Routes>
+        </main>
+        <Footer />
       </div>
-
-      {/* Footer */}
-      <footer className="footer">
-        &copy; {new Date().getFullYear()} Medicare. All rights reserved.
-      </footer>
-    </main>
+    </Router>
   );
 }
-
 
 export default App;
