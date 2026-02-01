@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Search, MapPin, ArrowRight } from 'lucide-react';
 import './OurHomes.css';
 import exteriorImg from '../assets/images/home-exterior.png';

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Apple, Leaf, Thermometer, Smile } from 'lucide-react';
 import './HealthNutrition.css';
 import nutritionImg from '../assets/images/nutrition.png';
