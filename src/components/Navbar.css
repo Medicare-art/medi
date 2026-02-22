@@ -18,6 +18,17 @@
 .contact-info {
     display: flex;
     gap: 2rem;
+    align-items: center;
+}
+
+.phone-group {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.separator {
+    opacity: 0.5;
 }
 
 .contact-info a {

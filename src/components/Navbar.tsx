@@ -25,7 +25,11 @@ const Navbar = () => {
             <div className="top-bar">
                 <div className="container">
                     <div className="contact-info">
-                        <a href="tel:02081234567"><Phone size={14} /> 020 8123 4567</a>
+                        <div className="phone-group">
+                            <a href="tel:+447443844134"><Phone size={14} /> +44 7443 844134</a>
+                            <span className="separator">|</span>
+                            <a href="tel:07877324048">07877 324048</a>
+                        </div>
                         <a href="mailto:info@mistymeadows.org.uk"><Mail size={14} /> info@mistymeadows.org.uk</a>
                     </div>
                 </div>

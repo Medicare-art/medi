@@ -50,11 +50,14 @@ const Footer = () => {
                         </div>
                         <div className="contact-item">
                             <Phone size={20} />
-                            <p>020 8123 4567</p>
+                            <div className="phone-stack">
+                                <a href="tel:+447443844134">+44 7443 844134</a>
+                                <a href="tel:07877324048">07877 324048</a>
+                            </div>
                         </div>
                         <div className="contact-item">
                             <Mail size={20} />
-                            <p>info@mistymeadows.org.uk</p>
+                            <a href="mailto:info@mistymeadows.org.uk">info@mistymeadows.org.uk</a>
                         </div>
                     </div>
                 </div>
